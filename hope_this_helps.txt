@@ -1,0 +1,15 @@
+
+- If you are planning to recreate this project, note that only (app.py, best.pt, ppe.mp4) are needed to test.
+  
+- For training the model, other than PPE kit detection, I would suggest using the (yolov8_fine_tuning.ipynb) on a Google Colab notebook.
+  
+- You can find the dataset on Roboflow if you are unwilling to annotate each image manually. 
+  - Download it in zip format.
+  - Upload the zip file to Google Drive.
+  - Unzip it.
+  
+- Just change the paths, modify the classes in the YAML file (it's in the Colab), and change the name of the model.
+  
+- Save the model as 'best.pt' and use that model in app.py.
+  
+- You can create a video related to your model (I've used fliki.ai to make a test video).
